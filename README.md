@@ -59,3 +59,7 @@ Architecture Plan:
 				- Create RECEIPT
 				- List Receipts
 				- View Receipt
+
+# TESTING:
+-----------
+	- 	Yet to implement
