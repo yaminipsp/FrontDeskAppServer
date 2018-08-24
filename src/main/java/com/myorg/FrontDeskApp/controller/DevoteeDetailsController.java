@@ -9,8 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-//import com.example.demo.dto.UserDto;
-//import com.example.demo.service.UserService;
 import com.myorg.FrontDeskApp.utils.MyRequestMappings;
 import com.myorg.FrontDeskApp.dto.DevoteeDetails;
 import com.myorg.FrontDeskApp.repository.DevoteeDetailsRepository;
@@ -19,7 +17,7 @@ import com.myorg.FrontDeskApp.service.DevoteeDetailsService;
 import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
-//@RequestMapping("/user")
+
 @RestController
 public class DevoteeDetailsController {
 	@Autowired
